@@ -7,7 +7,11 @@ from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.chrome.service import Service
 
 options = webdriver.ChromeOptions()
+options.add_argument('headless')
+options.add_argument('window-size=1920x1080')
+options.add_argument("disable-gpu")
 options.add_experimental_option('excludeSwitches', ['enable-logging'])
+
 
 # BaseURL of sharesansar website.
 URL = "https://www.sharesansar.com/"
