@@ -37,7 +37,7 @@ instance/
 
 # Environments
 env/
-env
+nepse_env
 
 # mypy
 .mypy_cache/
