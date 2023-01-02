@@ -21,14 +21,16 @@ file_name = "nica.csv"
 data_df.to_csv("data/" + file_name, encoding='utf-8', index=False)
 ```
 
-Hurray!!! Now you will be able to download the stock price data of any companies which are listed on NEPSE...
+Hurray!!! Now you will be able to get the stock price data of any companies which are listed on NEPSE...
+
+## TODO
+* add visualization
+* add features like to get todays_price, broker_list, news, dividend_history etc. 
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
 
-You can get some of the data from [my kaggle profile](https://www.kaggle.com/datasets/keskhanal2413/stock-price-dataset-of-top-companies-of-nepse/settings)
-
 ## Contact
-If you have any queries then drop a [message here](https://www.linkedin.com/in/keskhanal/)
+If you have any queries then drop a [message here](https://www.linkedin.com/in/keskhanal/) or [visit here](https://www.khanalkeshav.com.np/).
