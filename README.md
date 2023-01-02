@@ -33,4 +33,4 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 Please make sure to update tests as appropriate.
 
 ## Contact
-If you have any queries then drop a [message here](https://www.linkedin.com/in/keskhanal/) or [visit here].(https://www.khanalkeshav.com.np/)
+If you have any queries then drop a [message here](https://www.linkedin.com/in/keskhanal/) or [visit here](https://www.khanalkeshav.com.np/).
