@@ -8,6 +8,7 @@ __pycache__/
 lib/
 lib64/
 sdist/
+dist/
 var/
 wheels/
 *.egg-info/
@@ -41,3 +42,6 @@ nepse_env
 
 # mypy
 .mypy_cache/
+
+#testpipy
+/.pypirc

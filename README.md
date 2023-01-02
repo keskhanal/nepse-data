@@ -1,15 +1,14 @@
-# NEPSE Data Automation
+# nepal-stock-price
 This is a python package to download the stock price data of the companies listed in Nepal Stock Exchage(NEPSE).
 
-## Installation and Usage
+## Installation
 
 ```bash
-#installation
-pip install nepse-data
+pip install nepal-stock-price
 ```
 
+##  Usage
 ```python
-#usage Example
 from nepse_data.automation import Automate
 
 #scripts name
@@ -23,7 +22,6 @@ final_df.to_csv("data/" + file_name, encoding='utf-8', index=False)
 ```
 
 Hurray!!! Now you will be able to download the stock price data of any companies which are listed on NEPSE...
-
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
