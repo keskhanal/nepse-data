@@ -1,7 +1,7 @@
-from nepse_data.automation import Automate
+from nepse_data import NepseData
 
 def main(script_name, output_dir):
-    automation = Automate(script_name)
+    automation = NepseData(script_name)
     final_df = automation.price_history()
 
     #filename to save price history

@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="nepal-stock-price",
-    version="0.0.1",
+    version="1.0.0",
     author="Keshav Khanal",
     author_email="me.keskhanal@gmail.com",
     description="a python package for getting price history of companies listed in nepse",

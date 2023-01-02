@@ -9,16 +9,16 @@ pip install nepal-stock-price
 
 ##  Usage
 ```python
-from nepse_data.automation import Automate
+from nepse_data import NepseData
 
 #scripts name
-automation = Automate("nica")
+price_history = NepseData("nica")
 
-final_df = automation.price_history()
+data_df = price_history.price_history()
 
-#filepath to save price data
+#filepath to save price history in csv format
 file_name = "nica.csv"
-final_df.to_csv("data/" + file_name, encoding='utf-8', index=False)
+data_df.to_csv("data/" + file_name, encoding='utf-8', index=False)
 ```
 
 Hurray!!! Now you will be able to download the stock price data of any companies which are listed on NEPSE...
